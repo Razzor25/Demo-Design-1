@@ -1,0 +1,90 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(54, 54, 54);
+    /* background-image: url("bg2.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size:content; */
+    color: rgb(30, 115, 212);
+    /* cursor:auto; */
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 150px;
+}
+.cards div{
+    background-color: rgba(129, 129, 129, 0.2);
+    text-align: center;
+    justify-content: center;
+    margin: 0.8em;
+    padding: 1em 1em 1em ;
+}
+.cards img{
+    position: relative;
+    margin-bottom: 1em;
+    height: 300px;
+    width: 300px;
+}
+.cards h1{
+    position: absolute;
+    margin-left: 52.5px;
+    /* text-align: right; */
+    /* justify-content: center; */
+    top:260px;
+    /* right: inherit; */
+    color: rgb(0, 217, 255,0.75);
+}
+.cart{
+    position: relative;
+    top: 1em;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    background-color: rgb(255, 255, 255,0.25);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: grey;
+    width: 15em;
+    height: 7.5%;
+    border-width: 0px;
+    border-radius: 1em;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom:0;
+
+}
+button{
+    cursor: pointer;
+}
+.buy{
+    position: relative;
+    top: 24px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0,1);
+    border: none;
+    width: 10em;
+    height: 3.5em;
+    border-radius: 50%;
+    letter-spacing: 2px;
+    float: bottom;
+}
+.buy .icon{
+    margin-left:8px;
+    }
+.cart:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.buy:hover{
+    background-color: rgba(255, 255, 255, 8);
+    color: black;
+}
+.cards div:hover{
+    background-color: rgb(0, 0, 0,1);
+}
+
